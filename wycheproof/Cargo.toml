@@ -1,0 +1,17 @@
+[package]
+name = "w2hex"
+version = "0.1.0"
+authors = ["RustCrypto Developers"]
+license = "MIT OR Apache-2.0"
+description = "Utilities for retrieving Wycheproof test vectors"
+repository = "https://github.com/RustCrypto/utils"
+keywords = ["test", "Wycheproof"]
+categories = ["cryptography", "no-std"]
+edition = "2018"
+
+[dependencies]
+hex = "*"
+maplit = "*"
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
+structopt = "*"
